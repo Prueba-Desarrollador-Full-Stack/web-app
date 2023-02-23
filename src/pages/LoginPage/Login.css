@@ -1,0 +1,29 @@
+.centeredDiv {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  justify-content: center;
+}
+
+h1{
+  background-color: blue;
+  color: white;
+  padding: 3px;
+}
+
+button {
+  border-radius: 5px;
+  background-color: blue;
+  border: none;
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+}
+
+.error-message {
+  background-color: red;
+  color: white;
+}
